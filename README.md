@@ -78,7 +78,7 @@ My goal is to create AI systems that are not just impressive in demos, but pract
 
 ## Featured Projects
 
-### Aetherion — Agentic Multi-LLM RAG System
+### Aetherion ï¿½ Agentic Multi-LLM RAG System
 Live: [https://agentic-rag-gamma.vercel.app](https://agentic-rag-gamma.vercel.app/)
 
 A production-style AI product built around retrieval, reasoning, and multi-agent coordination to deliver more reliable answers.
@@ -106,7 +106,7 @@ flowchart LR
 
 </details>
 
-### Dragonite — Graph-Based AI Agent Framework
+### Dragonite ï¿½ Graph-Based AI Agent Framework
 Repo: [https://github.com/kcsanjayj/Dragonite](https://github.com/kcsanjayj/Dragonite)
 
 A framework for graph-driven AI workflows where tasks are decomposed and executed through specialized agents.
@@ -140,23 +140,6 @@ flowchart TD
 - Develop a RAG-based Solution with your own data using Microsoft Foundry
 - Develop an AI Agent with Microsoft Foundry Agent Service
 - Orchestrate a Multi-Agent Solution Using the Microsoft Agent Framework
-
----
-
-## GitHub Analytics
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kcsanjayj&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kcsanjayj&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=kcsanjayj&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kcsanjayj&theme=react-dark&hide_border=true&area=true&custom_title=Contribution%20Graph" alt="Contribution Graph" />
-</p>
 
 ---
 
