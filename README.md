@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=3000&pause=900&color=7C3AED&center=true&vCenter=true&width=1000&lines=AI+Engineer+%7C+Agentic+AI+Developer;RAG+Systems+Builder;FastAPI+Backend+Engineer;Building+production-grade+LLM+systems" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2800&pause=1000&color=7C3AED&center=true&vCenter=true&width=1000&lines=AI+Engineer;Agentic+AI+Builder;RAG+Systems+Architect;FastAPI+Backend+Engineer" alt="Typing SVG" />
 
 </div>
 
@@ -18,31 +18,44 @@
 <h1 align="center">Sanjay J</h1>
 
 <p align="center">
-  <strong>AI Engineer | Agentic AI Developer | RAG Systems Builder | FastAPI Backend Engineer</strong>
+  <strong>Building agentic systems that reason, retrieve, and ship.</strong>
 </p>
 
 <p align="center">
-  I build production-grade AI systems that think, retrieve, reason, and execute with reliability. My work sits at the intersection of <strong>Agentic AI</strong>, <strong>RAG</strong>, <strong>LLM orchestration</strong>, and <strong>backend engineering</strong>.
+  AI Engineer focused on <strong>Agentic AI</strong>, <strong>Multi-Agent Systems</strong>, <strong>RAG</strong>, <strong>LLM Engineering</strong>, and <strong>production backend systems</strong>.
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/kcsanjayj"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://github.com/kcsanjayj"><img src="https://img.shields.io/badge/GitHub-kcsanjayj-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="mailto:kcsanjayj@gmail.com"><img src="https://img.shields.io/badge/Email-kcsanjayj%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
 
 ---
 
 ## About Me
 
-I am an AI Engineer with hands-on experience building intelligent, production-oriented systems through internships and personal projects. My focus is on creating:
-- Agentic AI applications with multi-step reasoning and tool use
-- Retrieval-Augmented Generation systems grounded in real data
-- FastAPI-based backend services for AI products
-- Containerized and deployable AI infrastructure
+I am an AI Engineer with hands-on experience building intelligent systems that blend reasoning, retrieval, and reliable execution. My work focuses on creating production-oriented AI products that are not only technically advanced, but also practical to deploy and scale.
 
-I care deeply about building systems that are not just impressive in demos, but robust enough to ship and scale.
+I am especially interested in:
+- Agentic AI and autonomous workflows
+- Multi-Agent orchestration and coordination
+- RAG systems grounded in real-world knowledge
+- LLM-based applications with strong backend foundations
+- FastAPI services and AI infrastructure
 
-### What I specialize in
-- Multi-agent workflows and orchestration
-- LLM-powered applications
-- Semantic retrieval and vector search
-- Backend APIs and service architecture
-- AI deployment pipelines and containerization
+My goal is to build systems that feel like real products — robust, modular, and production-ready.
+
+---
+
+## Core Focus
+
+- Agentic AI
+- Multi-Agent Systems
+- RAG & Semantic Retrieval
+- LLM Engineering
+- AI Infrastructure
+- FastAPI & Backend Engineering
 
 ---
 
@@ -52,13 +65,13 @@ I care deeply about building systems that are not just impressive in demos, but 
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
   <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
   <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=chainlink&logoColor=white" />
   <img src="https://img.shields.io/badge/LLMs-8A2BE2?style=for-the-badge&logo=openai&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/AWS%20EC2-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" />
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
   <img src="https://img.shields.io/badge/ChromaDB-0F172A?style=for-the-badge&logo=database&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
 </p>
 
 ---
@@ -68,16 +81,13 @@ I care deeply about building systems that are not just impressive in demos, but 
 ### Aetherion — Agentic Multi-LLM RAG System
 Live: [https://agentic-rag-gamma.vercel.app](https://agentic-rag-gamma.vercel.app/)
 
-A production-style AI experience combining retrieval, multi-agent reasoning, and LLM orchestration to deliver smarter, more reliable answers.
+A production-style AI experience built around retrieval, reasoning, and multi-agent coordination to deliver more reliable answers.
 
-- Multi-LLM orchestration
+- Multi-LLM agent orchestration
 - ChromaDB semantic retrieval
-- Planner agent
-- Critic agent
-- Retry agent
-- Bounded self-correction
-- FastAPI backend
-- Docker deployment
+- Planner, Critic, and Retry agents
+- FastAPI backend services
+- Docker-based deployment
 
 <details>
 <summary><strong>Architecture Snapshot</strong></summary>
@@ -96,24 +106,19 @@ flowchart LR
 
 </details>
 
----
-
 ### Dragonite — Graph-Based AI Agent Framework
 Repo: [https://github.com/kcsanjayj/Dragonite](https://github.com/kcsanjayj/Dragonite)
 
-A framework for graph-based AI workflows where tasks are decomposed and executed through specialized agents.
+A framework for graph-driven AI workflows where tasks are decomposed and executed through specialized agents.
 
 - Graph-based task DAG execution
-- Planner agent
-- Executor agent
-- Critic agent
-- Replanner agent
-- Parallel task execution
-- Multiple LLM providers
+- Planner, Executor, Critic, and Replanner agents
+- Parallel execution
+- Multi-LLM provider support
 - FastAPI orchestration services
 
 <details>
-<summary><strong>System Flow</strong></summary>
+<summary><strong>Execution Flow</strong></summary>
 
 ```mermaid
 flowchart TD
@@ -121,7 +126,7 @@ flowchart TD
     B --> C[Task Graph Builder]
     C --> D[Executor Agent]
     D --> E[Critic Agent]
-    E -->|Needs Fix| F[Replanner Agent]
+    E -->|Needs Improvement| F[Replanner Agent]
     F --> C
     E -->|Approved| G[Final Output]
 ```
@@ -182,12 +187,6 @@ flowchart TD
 ---
 
 ## Connect With Me
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/kcsanjayj"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://github.com/kcsanjayj"><img src="https://img.shields.io/badge/GitHub-kcsanjayj-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <a href="mailto:kcsanjayj@gmail.com"><img src="https://img.shields.io/badge/Email-kcsanjayj%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-</p>
 
 <p align="center">
   <strong>Open to opportunities in AI Engineering, Applied AI, GenAI, and Backend Engineering.</strong>
