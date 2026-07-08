@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2800&pause=1000&color=7C3AED&center=true&vCenter=true&width=1000&lines=AI+Engineer;Agentic+AI+Builder;RAG+Systems+Architect;FastAPI+Backend+Engineer" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=3000&pause=1000&color=7C3AED&center=true&vCenter=true&width=1000&lines=AI+Engineer;Agentic+AI+Builder;RAG+Systems+Architect;FastAPI+Backend+Engineer" alt="Typing SVG" />
 
 </div>
 
@@ -35,16 +35,16 @@
 
 ## About Me
 
-I am an AI Engineer with hands-on experience building intelligent systems that blend reasoning, retrieval, and reliable execution. My work focuses on creating production-oriented AI products that are not only technically advanced, but also practical to deploy and scale.
+I build intelligent systems that combine reasoning, retrieval, and reliable execution. My work centers on Agentic AI, multi-agent orchestration, retrieval-augmented generation, and backend systems designed for real-world deployment.
 
-I am especially interested in:
+I am especially focused on:
 - Agentic AI and autonomous workflows
-- Multi-Agent orchestration and coordination
-- RAG systems grounded in real-world knowledge
-- LLM-based applications with strong backend foundations
+- Multi-Agent systems and coordination
+- RAG pipelines grounded in real knowledge
+- LLM-driven applications with strong engineering foundations
 - FastAPI services and AI infrastructure
 
-My goal is to build systems that feel like real products — robust, modular, and production-ready.
+My goal is to create AI systems that are not just impressive in demos, but practical, modular, and production-ready.
 
 ---
 
@@ -78,10 +78,10 @@ My goal is to build systems that feel like real products — robust, modular, an
 
 ## Featured Projects
 
-### Aetherion — Agentic Multi-LLM RAG System
+### Aetherion � Agentic Multi-LLM RAG System
 Live: [https://agentic-rag-gamma.vercel.app](https://agentic-rag-gamma.vercel.app/)
 
-A production-style AI experience built around retrieval, reasoning, and multi-agent coordination to deliver more reliable answers.
+A production-style AI product built around retrieval, reasoning, and multi-agent coordination to deliver more reliable answers.
 
 - Multi-LLM agent orchestration
 - ChromaDB semantic retrieval
@@ -106,7 +106,7 @@ flowchart LR
 
 </details>
 
-### Dragonite — Graph-Based AI Agent Framework
+### Dragonite � Graph-Based AI Agent Framework
 Repo: [https://github.com/kcsanjayj/Dragonite](https://github.com/kcsanjayj/Dragonite)
 
 A framework for graph-driven AI workflows where tasks are decomposed and executed through specialized agents.
@@ -155,15 +155,7 @@ flowchart TD
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=kcsanjayj&theme=algolia&no-frame=true&margin-w=8&margin-h=8" alt="GitHub Trophies" />
-</p>
-
-<p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=kcsanjayj&theme=react-dark&hide_border=true&area=true&custom_title=Contribution%20Graph" alt="Contribution Graph" />
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake" />
 </p>
 
 ---
