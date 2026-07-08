@@ -14,9 +14,9 @@
 <h1 align="center">Sanjay J</h1>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/kcsanjayj/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" width="50" height="50" /></a>
-  <a href="https://github.com/kcsanjayj"><img src="https://img.shields.io/badge/-181717?style=for-the-badge&logo=github&logoColor=white" width="50" height="50" /></a>
-  <a href="mailto:kcsanjayj@gmail.com"><img src="https://img.shields.io/badge/-D14836?style=for-the-badge&logo=gmail&logoColor=white" width="50" height="50" /></a>
+  <a href="https://www.linkedin.com/in/kcsanjayj/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" width="30" height="30" /></a>
+  <a href="https://github.com/kcsanjayj"><img src="https://img.shields.io/badge/-181717?style=for-the-badge&logo=github&logoColor=white" width="30" height="30" /></a>
+  <a href="mailto:kcsanjayj@gmail.com"><img src="https://img.shields.io/badge/-D14836?style=for-the-badge&logo=gmail&logoColor=white" width="30" height="30" /></a>
 </p>
 
 ---
