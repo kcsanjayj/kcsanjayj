@@ -22,7 +22,7 @@
 </p>
 
 <p align="center">
-  AI Engineer focused on <strong>Agentic AI</strong>, <strong>Multi-Agent Systems</strong>, <strong>RAG</strong>, <strong>LLM Engineering</strong>, and <strong>production backend systems</strong>.
+  AI Engineer focused on <strong>Agentic AI</strong>, <strong>RAG Systems</strong>, <strong>Multi-Agent Systems</strong>, <strong>FastAPI</strong>, and <strong>backend engineering</strong>.
 </p>
 
 <p align="center">
@@ -35,27 +35,27 @@
 
 ## About Me
 
-I build intelligent systems that combine reasoning, retrieval, and reliable execution. My work centers on Agentic AI, multi-agent orchestration, retrieval-augmented generation, and backend systems designed for real-world deployment.
+I build intelligent systems that combine reasoning, retrieval, and reliable execution. My work centers on agentic AI, multi-agent orchestration, retrieval-augmented generation, and backend systems designed for real-world deployment.
 
 I am especially focused on:
 - Agentic AI and autonomous workflows
 - Multi-Agent systems and coordination
-- RAG pipelines grounded in real knowledge
+- RAG pipelines grounded in real data
 - LLM-driven applications with strong engineering foundations
 - FastAPI services and AI infrastructure
 
-My goal is to create AI systems that are not just impressive in demos, but practical, modular, and production-ready.
+The goal is to create AI systems that are robust, modular, and production-ready.
 
 ---
 
 ## Core Focus
 
 - Agentic AI
+- RAG Systems
 - Multi-Agent Systems
-- RAG & Semantic Retrieval
+- FastAPI
+- Backend Engineering
 - LLM Engineering
-- AI Infrastructure
-- FastAPI & Backend Engineering
 
 ---
 
@@ -71,42 +71,24 @@ My goal is to create AI systems that are not just impressive in demos, but pract
   <img src="https://img.shields.io/badge/AWS%20EC2-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" />
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
   <img src="https://img.shields.io/badge/ChromaDB-0F172A?style=for-the-badge&logo=database&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
 </p>
 
 ---
 
 ## Featured Projects
 
-### Aetherion ï¿½ Agentic Multi-LLM RAG System
+### Aetherion — Agentic Multi-LLM RAG System
 Live: [https://agentic-rag-gamma.vercel.app](https://agentic-rag-gamma.vercel.app/)
 
-A production-style AI product built around retrieval, reasoning, and multi-agent coordination to deliver more reliable answers.
+A production-style AI system built around agentic reasoning, semantic retrieval, and multi-LLM orchestration.
 
 - Multi-LLM agent orchestration
 - ChromaDB semantic retrieval
 - Planner, Critic, and Retry agents
 - FastAPI backend services
-- Docker-based deployment
+- Docker deployment
 
-<details>
-<summary><strong>Architecture Snapshot</strong></summary>
-
-```mermaid
-flowchart LR
-    U[User Query] --> F[Frontend]
-    F --> API[FastAPI API]
-    API --> P[Planner Agent]
-    P --> R[Retriever / ChromaDB]
-    R --> C[Critic Agent]
-    C --> RT[Retry Agent]
-    RT --> O[Final Response]
-    C -->|Replan| P
-```
-
-</details>
-
-### Dragonite ï¿½ Graph-Based AI Agent Framework
+### Dragonite — Graph-Based AI Agent Framework
 Repo: [https://github.com/kcsanjayj/Dragonite](https://github.com/kcsanjayj/Dragonite)
 
 A framework for graph-driven AI workflows where tasks are decomposed and executed through specialized agents.
@@ -114,32 +96,21 @@ A framework for graph-driven AI workflows where tasks are decomposed and execute
 - Graph-based task DAG execution
 - Planner, Executor, Critic, and Replanner agents
 - Parallel execution
-- Multi-LLM provider support
+- Multi-LLM support
 - FastAPI orchestration services
-
-<details>
-<summary><strong>Execution Flow</strong></summary>
-
-```mermaid
-flowchart TD
-    A[Task Input] --> B[Planner Agent]
-    B --> C[Task Graph Builder]
-    C --> D[Executor Agent]
-    D --> E[Critic Agent]
-    E -->|Needs Improvement| F[Replanner Agent]
-    F --> C
-    E -->|Approved| G[Final Output]
-```
-
-</details>
 
 ---
 
-## Certifications
+## GitHub Stats
 
-- Develop a RAG-based Solution with your own data using Microsoft Foundry
-- Develop an AI Agent with Microsoft Foundry Agent Service
-- Orchestrate a Multi-Agent Solution Using the Microsoft Agent Framework
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=kcsanjayj&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kcsanjayj&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=kcsanjayj&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</p>
 
 ---
 
