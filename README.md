@@ -73,11 +73,15 @@ The goal is to create AI systems that are robust, modular, and production-ready.
   <img src="https://img.shields.io/badge/ChromaDB-0F172A?style=for-the-badge&logo=database&logoColor=white" />
 </p>
 
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,fastapi,sql,langchain,openai,docker,aws,mysql,chromadb" />
+</p>
+
 ---
 
 ## Featured Projects
 
-### Aetherion — Agentic Multi-LLM RAG System
+### Aetherion ï¿½ Agentic Multi-LLM RAG System
 Live: [https://agentic-rag-gamma.vercel.app](https://agentic-rag-gamma.vercel.app/)
 
 A production-style AI system built around agentic reasoning, semantic retrieval, and multi-LLM orchestration.
@@ -88,7 +92,7 @@ A production-style AI system built around agentic reasoning, semantic retrieval,
 - FastAPI backend services
 - Docker deployment
 
-### Dragonite — Graph-Based AI Agent Framework
+### Dragonite ï¿½ Graph-Based AI Agent Framework
 Repo: [https://github.com/kcsanjayj/Dragonite](https://github.com/kcsanjayj/Dragonite)
 
 A framework for graph-driven AI workflows where tasks are decomposed and executed through specialized agents.
@@ -98,19 +102,6 @@ A framework for graph-driven AI workflows where tasks are decomposed and execute
 - Parallel execution
 - Multi-LLM support
 - FastAPI orchestration services
-
----
-
-## GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kcsanjayj&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kcsanjayj&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=kcsanjayj&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</p>
 
 ---
 
