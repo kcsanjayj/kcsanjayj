@@ -27,10 +27,10 @@
 
 ## What I Build
 
-- Agentic AI systems that reason and act with autonomy
+- Agentic AI systems that reason, plan, and act
 - Multi-Agent frameworks for structured execution and coordination
-- Production-ready RAG applications grounded in real data
-- FastAPI backends and AI infrastructure for shipping reliable products
+- RAG applications grounded in real-world data
+- FastAPI backends and AI infrastructure for reliable AI products
 
 ---
 
