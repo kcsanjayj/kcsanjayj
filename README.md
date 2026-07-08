@@ -45,23 +45,4 @@
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
 </p>
 
----
-
-## Featured Projects
-
-### Aetherion
-Multi-LLM Agentic RAG System
-
-- Semantic retrieval with ChromaDB
-- Planner, Critic, and Retry agents
-- FastAPI backend
-- Docker deployment
-
-### Dragonite
-Graph-Based AI Agent Framework
-
-- Task DAG execution
-- Planner, Executor, Critic, and Replanner agents
-- Parallel execution
-- Multi-LLM support
 
