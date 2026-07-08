@@ -135,24 +135,6 @@ flowchart TD
 
 ---
 
-## Experience
-
-- <strong>Planning Engineer (Data & Operations)</strong> — Corrtech International Ltd.<br>
-  Apr 2025 – Mar 2026
-
-- <strong>Machine Learning Intern</strong> — Tringapps Research Labs<br>
-  Jan 2024 – Mar 2024
-
----
-
-## Education
-
-- <strong>B.E. Computer Science and Engineering</strong><br>
-  K. Ramakrishnan College of Technology<br>
-  2020 – 2024
-
----
-
 ## Certifications
 
 - Develop a RAG-based Solution with your own data using Microsoft Foundry
