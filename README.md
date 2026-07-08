@@ -73,36 +73,6 @@ The goal is to create AI systems that are robust, modular, and production-ready.
   <img src="https://img.shields.io/badge/ChromaDB-0F172A?style=for-the-badge&logo=database&logoColor=white" />
 </p>
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,fastapi,sql,langchain,openai,docker,aws,mysql,chromadb" />
-</p>
-
----
-
-## Featured Projects
-
-### Aetherion � Agentic Multi-LLM RAG System
-Live: [https://agentic-rag-gamma.vercel.app](https://agentic-rag-gamma.vercel.app/)
-
-A production-style AI system built around agentic reasoning, semantic retrieval, and multi-LLM orchestration.
-
-- Multi-LLM agent orchestration
-- ChromaDB semantic retrieval
-- Planner, Critic, and Retry agents
-- FastAPI backend services
-- Docker deployment
-
-### Dragonite � Graph-Based AI Agent Framework
-Repo: [https://github.com/kcsanjayj/Dragonite](https://github.com/kcsanjayj/Dragonite)
-
-A framework for graph-driven AI workflows where tasks are decomposed and executed through specialized agents.
-
-- Graph-based task DAG execution
-- Planner, Executor, Critic, and Replanner agents
-- Parallel execution
-- Multi-LLM support
-- FastAPI orchestration services
-
 ---
 
 ## Connect With Me
