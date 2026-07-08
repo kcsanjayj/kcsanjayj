@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=3000&pause=1000&color=7C3AED&center=true&vCenter=true&width=1000&lines=Building+Agentic+AI+Systems;Designing+Multi-Agent+Frameworks;RAG+Applications" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=3000&pause=1000&color=7C3AED&center=true&vCenter=true&width=1000&lines=Building+Agentic+AI+Systems;Designing+Multi-Agent+Frameworks;Building+RAG+Applications" alt="Typing SVG" />
 
 </div>
 
@@ -14,7 +14,7 @@
 <h1 align="center">Sanjay J</h1>
 
 <p align="center">
-  <strong>Building Agentic AI systems, Multi-Agent frameworks, and RAG applications.</strong>
+  <strong>Building Agentic AI systems, Multi-Agent frameworks, and Building RAG applications.</strong>
 </p>
 
 <p align="center">
