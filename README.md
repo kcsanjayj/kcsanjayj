@@ -11,10 +11,10 @@ Building AI systems that reason, plan, retrieve knowledge, and execute tasks.
 ## Featured Work
 
 ### Dragonite
-Graph-based multi-agent framework for orchestration, planning, and tool execution.
+Graph-based multi-agent framework for planning, routing, memory, and tool execution.
 
 ### Aetherion
-Multi-LLM RAG platform for intelligent retrieval and reasoning.
+Multi-LLM RAG platform supporting retrieval, reasoning, and agent orchestration.
 
 ---
 
