@@ -1,124 +1,38 @@
-# Hi, I'm Sanjay 👋
+# Sanjay J
 
-### AI Engineer | Agentic AI | Multi-Agent Systems | RAG Applications
-I build AI systems that can reason, plan, retrieve knowledge, and execute tasks autonomously.
+### AI Engineer • Agentic AI • Multi-Agent Systems • RAG Applications
 
-Currently focused on:
-
-- Agentic AI Systems
-- Multi-Agent Architectures
-- Retrieval-Augmented Generation (RAG)
-- LLM Application Engineering
-- FastAPI Backends for AI Products
-
----
-
-## 🚀 Current Focus
-
-```text
-Building Agentic AI Systems
-Designing Multi-Agent Frameworks
-Developing Production-Ready RAG Applications
-Learning AI Infrastructure and Deployment
+```
+Building AI systems that reason, plan, retrieve knowledge, and execute tasks.
 ```
 
 ---
 
-## 🛠 Tech Stack
-
-### Languages
-
-- Python
-- SQL
-
-### AI & LLM
-
-- OpenAI APIs
-- LangChain
-- RAG Pipelines
-- Prompt Engineering
-- Vector Search
-
-### Backend
-
-- FastAPI
-- REST APIs
-- Async Python
-
-### Databases
-
-- PostgreSQL
-- ChromaDB
-
-### DevOps & Tools
-
-- Docker
-- Git
-- GitHub
-- Linux
-
----
-
-## 📌 Featured Projects
+## Featured Work
 
 ### Dragonite
-A graph-based multi-agent framework designed for task planning, orchestration, and agent collaboration.
-
-**Key Areas**
-
-- Agent routing
-- Task decomposition
-- Tool execution
-- Workflow graphs
-
----
+Graph-based multi-agent framework for orchestration, planning, and tool execution.
 
 ### Aetherion
-An agentic multi-LLM RAG platform for knowledge retrieval and intelligent reasoning.
-
-**Key Areas**
-
-- Document ingestion
-- Vector retrieval
-- Multi-model reasoning
-- Context-aware generation
+Multi-LLM RAG platform for intelligent retrieval and reasoning.
 
 ---
 
-## 📚 Currently Learning
+## Core Stack
+**Python • FastAPI • LangChain • OpenAI APIs • ChromaDB • Docker**
 
-- Advanced RAG Architectures
+---
+
+## Currently Exploring
+
 - Agent Memory Systems
-- Multi-Agent Coordination
-- Evaluation Frameworks for LLM Applications
-- AI Infrastructure and Deployment
+- AI Infrastructure
+- Evaluation Frameworks
+- Production AI Systems
 
 ---
 
-## 🎯 2026 Goals
-
-- Build production-grade AI applications
-- Contribute to open source AI projects
-- Deepen expertise in Agentic AI systems
-- Publish technical content on AI engineering
-
----
-
-## 🤝 Open To
-
-- AI Engineering Internships
-- Backend Engineering Roles
-- Open Source Collaboration
-- Research Projects in Agentic AI and RAG
-
----
-
-## 📫 Connect With Me
-
-- [LinkedIn](https://www.linkedin.com/in/kcsanjayj/)
-- [GitHub](https://github.com/kcsanjayj)
-- [Email](mailto:kcsanjayj@gmail.com)
-
-Always interested in discussing AI systems, agents, and real-world LLM applications.
+### Open to
+**AI Engineer Internships • Backend Roles • Open Source Collaboration**
 
 
