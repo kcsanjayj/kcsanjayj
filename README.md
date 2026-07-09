@@ -1,51 +1,124 @@
-<div align="center">
+# Hi, I'm Sanjay 👋
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=3000&pause=1000&color=7C3AED&center=true&vCenter=true&width=1000&lines=Building+Agentic+AI+Systems;Designing+Multi-Agent+Frameworks;Building+RAG+Applications" alt="Typing SVG" />
+### AI Engineer | Agentic AI | Multi-Agent Systems | RAG Applications
+I build AI systems that can reason, plan, retrieve knowledge, and execute tasks autonomously.
 
-</div>
+Currently focused on:
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=kcsanjayj&label=PROFILE%20VIEWS&color=0e75b6&style=for-the-badge" />
-  <img src="https://img.shields.io/github/followers/kcsanjayj?label=FOLLOWERS&style=for-the-badge&logo=github&color=7C3AED" />
-  <img src="https://img.shields.io/github/stars/kcsanjayj?label=STARS%20EARNED&style=for-the-badge&logo=github&color=F59E0B" />
-  <img src="https://img.shields.io/badge/Repositories-8-4F46E5?style=for-the-badge&logo=github" />
-</p>
-
-<h1 align="center">Sanjay J</h1>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/kcsanjayj/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" width="75" height="50" /></a>
-  <a href="https://github.com/kcsanjayj"><img src="https://img.shields.io/badge/-181717?style=for-the-badge&logo=github&logoColor=white" width="75" height="50" /></a>
-  <a href="mailto:kcsanjayj@gmail.com"><img src="https://img.shields.io/badge/-D14836?style=for-the-badge&logo=gmail&logoColor=white" width="75" height="50" /></a>
-</p>
+- Agentic AI Systems
+- Multi-Agent Architectures
+- Retrieval-Augmented Generation (RAG)
+- LLM Application Engineering
+- FastAPI Backends for AI Products
 
 ---
 
-## What I Build
+## 🚀 Current Focus
 
-- Agentic AI systems that reason, plan, and act
-- Multi-Agent frameworks for structured execution and coordination
-- RAG applications grounded in real-world data
-- FastAPI backends and AI infrastructure for reliable AI products
-
----
-
-## Featured Projects
-
-- Dragonite → Graph-based Multi-Agent Framework
-- Aetherion → Agentic Multi-LLM RAG Platform
+```text
+Building Agentic AI Systems
+Designing Multi-Agent Frameworks
+Developing Production-Ready RAG Applications
+Learning AI Infrastructure and Deployment
+```
 
 ---
 
-## Core Stack
+## 🛠 Tech Stack
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=chainlink&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/ChromaDB-0F172A?style=for-the-badge&logo=database&logoColor=white" />
-  <img src="https://img.shields.io/badge/LLMs-4F46E5?style=for-the-badge&logo=openai&logoColor=white" />
-</p>
+### Languages
+
+- Python
+- SQL
+
+### AI & LLM
+
+- OpenAI APIs
+- LangChain
+- RAG Pipelines
+- Prompt Engineering
+- Vector Search
+
+### Backend
+
+- FastAPI
+- REST APIs
+- Async Python
+
+### Databases
+
+- PostgreSQL
+- ChromaDB
+
+### DevOps & Tools
+
+- Docker
+- Git
+- GitHub
+- Linux
+
+---
+
+## 📌 Featured Projects
+
+### Dragonite
+A graph-based multi-agent framework designed for task planning, orchestration, and agent collaboration.
+
+**Key Areas**
+
+- Agent routing
+- Task decomposition
+- Tool execution
+- Workflow graphs
+
+---
+
+### Aetherion
+An agentic multi-LLM RAG platform for knowledge retrieval and intelligent reasoning.
+
+**Key Areas**
+
+- Document ingestion
+- Vector retrieval
+- Multi-model reasoning
+- Context-aware generation
+
+---
+
+## 📚 Currently Learning
+
+- Advanced RAG Architectures
+- Agent Memory Systems
+- Multi-Agent Coordination
+- Evaluation Frameworks for LLM Applications
+- AI Infrastructure and Deployment
+
+---
+
+## 🎯 2026 Goals
+
+- Build production-grade AI applications
+- Contribute to open source AI projects
+- Deepen expertise in Agentic AI systems
+- Publish technical content on AI engineering
+
+---
+
+## 🤝 Open To
+
+- AI Engineering Internships
+- Backend Engineering Roles
+- Open Source Collaboration
+- Research Projects in Agentic AI and RAG
+
+---
+
+## 📫 Connect With Me
+
+- [LinkedIn](https://www.linkedin.com/in/kcsanjayj/)
+- [GitHub](https://github.com/kcsanjayj)
+- [Email](mailto:kcsanjayj@gmail.com)
+
+Always interested in discussing AI systems, agents, and real-world LLM applications.
 
 
