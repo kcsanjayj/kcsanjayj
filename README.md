@@ -9,7 +9,7 @@
     ╚══════════════════════════════════════════════════════════╝
 ```
 
-### Building Production-Grade Agentic AI Systems
+### Building Production-Inspired Agentic AI Systems
 
 </div>
 
@@ -108,20 +108,6 @@ Hands-on experience with modern LLM engineering practices:
 
 ---
 
-## 📊 Quick Stats
-
-```
-┌─────────────────────────────────────────┐
-│  Projects Built: 2+ Production-Grade    │
-│  Internship: ✓ ML & LLM Focus          │
-│  Framework Knowledge: Deep             │
-│  LLM Systems: Intermediate             │
-│  Backend: FastAPI Specialist           │
-└─────────────────────────────────────────┘
-```
-
----
-
 ## 🎯 What I'm Looking For
 
 - **AI/ML Teams** building real LLM systems
@@ -130,17 +116,6 @@ Hands-on experience with modern LLM engineering practices:
 - **Companies** doing serious RAG/multi-agent work
 
 *Not* looking for: Tutorial projects, mock systems, or roles limited to simple chatbot development.
-
----
-
-## 💡 My Philosophy
-
-> "The gap between a junior and senior AI engineer isn't credentials—it's deep understanding of how real systems work. I build to learn, and I learn to build."
-
-- **Learn by Building:** Projects first, then frameworks
-- **Depth over Breadth:** Master one stack deeply (Python/FastAPI/LLMs)
-- **Production-Inspired:** Even side projects follow industry patterns
-- **Humble Learning:** Always improving, never claiming expertise I don't have
 
 ---
 
