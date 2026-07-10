@@ -15,17 +15,6 @@
 
 ---
 
-## ⚡ Quick Scan (15 seconds)
-
-✓ **AI Engineer** | Fresher with internship background  
-✓ **ML Internship** at Tringapps Research Labs  
-✓ **2 Production-Inspired AI Systems** (Aetherion, Dragonite)  
-✓ **Specialization:** Agentic AI • RAG • Multi-Agent Workflows  
-✓ **Tech Stack:** Python • FastAPI • LangChain • ChromaDB • Docker  
-✓ **Open to:** AI Engineering & Backend Roles (Remote-friendly)
-
----
-
 ## 👋 About Me
 
 AI Engineer with hands-on experience in **Agentic AI systems**, **Retrieval-Augmented Generation (RAG)**, and **backend orchestration**. Internship-trained and self-driven, I specialize in building modern LLM-powered applications that scale beyond chatbots.
