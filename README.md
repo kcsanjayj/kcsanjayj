@@ -15,6 +15,17 @@
 
 ---
 
+## ⚡ Quick Scan (15 seconds)
+
+✓ **AI Engineer** | Fresher with internship background  
+✓ **ML Internship** at Tringapps Research Labs  
+✓ **2 Production-Inspired AI Systems** (Aetherion, Dragonite)  
+✓ **Specialization:** Agentic AI • RAG • Multi-Agent Workflows  
+✓ **Tech Stack:** Python • FastAPI • LangChain • ChromaDB • Docker  
+✓ **Open to:** AI Engineering & Backend Roles (Remote-friendly)
+
+---
+
 ## 👋 About Me
 
 AI Engineer with hands-on experience in **Agentic AI systems**, **Retrieval-Augmented Generation (RAG)**, and **backend orchestration**. Internship-trained and self-driven, I specialize in building modern LLM-powered applications that scale beyond chatbots.
@@ -46,30 +57,14 @@ Open to remote & hybrid roles
 
 ---
 
-## 🛠️ Technical Arsenal
+## 🛠️ Technical Toolkit
 
-### Languages & Core
-- **Python** (Primary)
-- **SQL** (Database design & queries)
-- **JavaScript** (Basics)
-- DSA • OOP • DBMS
-
-### AI/Agentic Systems
-- **Agentic AI** (Multi-agent orchestration)
-- **RAG Pipelines** (Vector DBs, semantic search)
-- **LLM Engineering** (Prompt optimization, routing)
-- **LangChain** (Workflow automation)
-- **Multi-Agent Workflows** (Planner-Executor-Critic patterns)
-
-### Backend & Infrastructure
-- **FastAPI** (REST APIs, async)
-- **Docker** (Containerization & deployment)
-- **AWS EC2** (Basic cloud deployment)
-- **Git** (Version control)
-
-### Databases & Storage
-- **MySQL** (Relational design)
-- **ChromaDB** (Vector embeddings & semantic search)
+**Languages:** Python • SQL • JavaScript (Basics)  
+**AI/ML:** Agentic AI • RAG • LangChain • LLM Engineering • Multi-Agent Workflows  
+**Backend:** FastAPI • REST APIs • Async Programming  
+**Databases:** MySQL • ChromaDB  
+**Infrastructure:** Docker • Git • AWS EC2  
+**Fundamentals:** DSA • OOP • DBMS
 
 ---
 
@@ -166,9 +161,9 @@ Hands-on experience with modern LLM engineering practices:
 
 | Platform | Link |
 |----------|------|
-| **GitHub** | [github.com/sanjayj](https://github.com/sanjayj) |
-| **LinkedIn** | [linkedin.com/in/sanjayj](https://linkedin.com/in/sanjayj) |
-| **Email** | [your.email@example.com](mailto:your.email@example.com) |
+| **GitHub** | [github.com/kcsanjayj](https://github.com/kcsanjayj) |
+| **LinkedIn** | [linkedin.com/in/kcsanjayj](https://linkedin.com/in/kcsanjayj) |
+| **Email** | [kcsanjayj@gmail.com](mailto:kcsanjayj@gmail.com) |
 
 </div>
 
