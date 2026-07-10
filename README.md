@@ -1,4 +1,4 @@
-# Sanjay J - AI Engineer Portfolio
+# Sanjay J - AI Engineer 
 
 <div align="center">
 
@@ -21,7 +21,7 @@ AI Engineer with hands-on experience in **Agentic AI systems**, **Retrieval-Augm
 
 I approach AI engineering pragmatically:
 - **Not** research-focused or academic
-- **Building** real systems with FastAPI + LLMs
+- **Building** practical AI systems with FastAPI + LLMs
 - **Learning** through production-inspired projects
 - **Exploring** multi-agent architectures and AI orchestration
 
@@ -31,7 +31,7 @@ I approach AI engineering pragmatically:
 
 **Fresher AI Engineer**
 <br/>
-Startup mentality, production mindset
+Startup mindset, systems mindset
 
 </td>
 <td align="center" width="50%">
@@ -137,11 +137,11 @@ Hands-on experience with modern LLM engineering practices:
 
 ### 🚀 Open to Opportunities
 
-Building the next generation of intelligent systems. Let's talk AI, agents, and backend architecture.
+Interested in building the next generation of intelligent systems. Let's talk AI, agents, and backend architecture.
 
 ```
 AI Engineer | Fresher | India
-Learning by Building • Production-Grade Projects
+Learning by Building • Production-Inspired Projects
 ```
 
 </div>
