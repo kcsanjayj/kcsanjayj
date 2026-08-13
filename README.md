@@ -57,7 +57,7 @@ output," that's the kind of problem I want to be given.
 <tr>
 <td width="50%" valign="top">
 
-**[⚡ Dragonite](https://github.com/kcsanjayj/Dragonite)**
+**[Dragonite](https://github.com/kcsanjayj/Dragonite)**
 Graph-based agent orchestrator
 
 Requests become dependency-aware task DAGs.
@@ -70,7 +70,7 @@ and repaired — not just re-tried blindly.
 </td>
 <td width="50%" valign="top">
 
-**[🦅 Aetherion](https://github.com/kcsanjayj/Aetherion)**
+**[Aetherion](https://github.com/kcsanjayj/Aetherion)**
 Self-correcting RAG system
 
 Every answer is scored by a critic agent
