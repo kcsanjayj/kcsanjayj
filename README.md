@@ -11,13 +11,11 @@
 
 ### 👋 About
 
-I started with a simple curiosity: **how can we make machines do more than just follow instructions?**
-
-That question pulled me into **Machine Learning, AI, and eventually LLMs and Agentic AI**.
-
-I'm a fresher who enjoys learning from first principles, experimenting with ideas, and building things along the way.
-
-My goal is simple: **understand AI deeply enough to build systems that are genuinely useful.**
+* 🧠 **Curious by nature** — fascinated by how machines can learn, reason, and make decisions.
+* 🤖 **Focused on AI** — exploring Machine Learning, LLMs, Agentic AI, and RAG.
+* 🔍 **Learn from first principles** — I like understanding what's happening under the hood, not just using the tools.
+* 🛠️ **Learn by building** — turning ideas into practical systems and learning from what breaks.
+* 🎯 **Long-term goal** — become an AI Engineer who builds systems that are genuinely useful.
 
 ---
 
@@ -97,4 +95,4 @@ Worked on **LLM-powered automation workflows, FastAPI microservices, and AI inte
 
 Opportunities to **build, learn, and solve hard problems in AI** — especially across **Agentic AI, LLM systems, RAG, and AI engineering**.
 
->                                               **Curious enough to explore.Serious enough to build.**
+>                                     **Curious enough to explore.Serious enough to build.**
