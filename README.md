@@ -29,11 +29,23 @@ accurate than impressive.
 
 ### 🔧 What I actually work with
 
-**Languages:** Python, SQL, JavaScript (basics)
-**AI/Agentic:** Agentic AI, RAG, LangChain, multi-agent workflows, LLM orchestration
-**Backend:** FastAPI, REST APIs, async Python
-**Data:** MySQL, ChromaDB
-**Infra:** Docker, Git, AWS EC2
+**Languages**
+<p><img src="https://skillicons.dev/icons?i=python,mysql,js" /></p>
+
+**AI / Agentic**
+<p><img src="https://skillicons.dev/icons?i=langchain,pytorch" />
+&nbsp;<img src="https://img.shields.io/badge/RAG-black?style=for-the-badge&logo=databricks&logoColor=white" height="48"/>
+&nbsp;<img src="https://img.shields.io/badge/Multi--Agent-black?style=for-the-badge&logo=semanticweb&logoColor=white" height="48"/></p>
+
+**Backend**
+<p><img src="https://skillicons.dev/icons?i=fastapi,python" />
+&nbsp;<img src="https://img.shields.io/badge/REST_API-black?style=for-the-badge&logo=fastapi&logoColor=white" height="48"/></p>
+
+**Data**
+<p><img src="https://skillicons.dev/icons?i=mysql,chromadb" /></p>
+
+**Infra**
+<p><img src="https://skillicons.dev/icons?i=docker,git,aws" /></p>
 
 ---
 
