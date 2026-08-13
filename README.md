@@ -85,13 +85,20 @@ feedback, not a blind regenerate.
 
 ### 💼 Experience
 
-**Machine Learning Intern — Tringapps Research Labs**
-LangChain automation workflows, FastAPI microservices for AI integrations, LLM prompt
-pipeline optimization. Carried that experience straight into Dragonite and Aetherion.
+**Machine Learning Intern · Tringapps Research Labs**
+
+Worked on **LLM-powered automation workflows, FastAPI microservices, and AI integrations**, with a focus on improving prompt pipelines and building practical AI solutions.
+
+**Focus:** `LLMs` · `LangChain` · `FastAPI` · `AI Automation`
 
 ---
 
 ### 🎯 Looking for
+
+Opportunities to **build, learn, and solve hard problems in AI** — especially across **Agentic AI, LLM systems, RAG, and AI engineering**.
+
+> **Curious enough to explore.
+> Serious enough to build.**
 
            Roles where the work is real LLM infrastructure — agentic pipelines, RAG, orchestration. Open to remote/hybrid.
 
