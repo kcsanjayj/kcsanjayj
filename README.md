@@ -70,7 +70,7 @@ and repaired — not just re-tried blindly.
 </td>
 <td width="50%" valign="top">
 
-**[🔵 Aetherion](https://github.com/kcsanjayj/Aetherion)**
+**[🦅 Aetherion](https://github.com/kcsanjayj/Aetherion)**
 Self-correcting RAG system
 
 Every answer is scored by a critic agent
