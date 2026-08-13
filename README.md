@@ -11,18 +11,13 @@
 
 ### 👋 About
 
-Most people wrap an API call and call it "AI engineering." I'm more interested in what
-happens *after* the first response is wrong — how a system catches its own mistakes,
-retries intelligently, and recovers without a human babysitting it.
+I started with a simple curiosity: **how can we make machines do more than just follow instructions?**
 
-That's the thread running through my two main projects: one turns requests into
-task graphs that execute and repair themselves, the other makes a RAG pipeline grade
-its own answers before showing them to you. I'm a fresher — no bootcamp gloss, no
-inflated titles — just someone who'd rather ship a working system and be honest about
-its limits than talk a big game.
+That question pulled me into **Machine Learning, AI, and eventually LLMs and Agentic AI**.
 
-If you're hiring for real LLM infrastructure work, not "call OpenAI and format the
-output," that's the kind of problem I want to be given.
+I'm a fresher who enjoys learning from first principles, experimenting with ideas, and building things along the way.
+
+My goal is simple: **understand AI deeply enough to build systems that are genuinely useful.**
 
 ---
 
@@ -98,6 +93,6 @@ pipeline optimization. Carried that experience straight into Dragonite and Aethe
 
 ### 🎯 Looking for
 
-              Roles where the work is real LLM infrastructure — agentic pipelines, RAG, orchestration. Open to remote/hybrid.
+           Roles where the work is real LLM infrastructure — agentic pipelines, RAG, orchestration. Open to remote/hybrid.
 
 <p align="center"><i>Fresher on paper. Built two systems that fail gracefully and recover on their own — judge from there.</i></p>
