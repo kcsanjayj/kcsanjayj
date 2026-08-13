@@ -98,6 +98,6 @@ pipeline optimization. Carried that experience straight into Dragonite and Aethe
 
 ### 🎯 Looking for
 
-Roles where the work is real LLM infrastructure — agentic pipelines, RAG, orchestration. Open to remote/hybrid.
+              Roles where the work is real LLM infrastructure — agentic pipelines, RAG, orchestration. Open to remote/hybrid.
 
 <p align="center"><i>Fresher on paper. Built two systems that fail gracefully and recover on their own — judge from there.</i></p>
