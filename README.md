@@ -13,7 +13,7 @@
 
 I started with a simple curiosity: how can machines learn, reason, and do more than just follow instructions? That curiosity led me from Machine Learning into LLMs, Agentic AI, and RAG.
 
-I'm a fresher who likes learning from first principles and turning what I learn into working systems. My goal is to build AI that is not just impressive in a demo, but genuinely useful in the real world.
+I'm a fresher who learns from first principles and turns what I learn into working systems. My goal is to build AI that is not just impressive in a demo, but genuinely useful in the real world.
 
 ---
 
