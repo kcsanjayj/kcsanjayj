@@ -1,149 +1,91 @@
-# Sanjay J - AI Engineer 
+<h1 align="center">Hi, I'm Sanjay 👋</h1>
+<h3 align="center">AI Engineer — Agentic Systems & RAG</h3>
 
-<div align="center">
+<p align="center">
+  Fresher AI Engineer based in India, building agentic AI systems with FastAPI and LLMs.
+  Not academic/research-focused — I learn by shipping working systems.
+</p>
 
-```
-    ╔══════════════════════════════════════════════════════════╗
-    ║        🚀 AI Engineer | Agentic AI • RAG • FastAPI       ║
-    ║     Building intelligent systems, one agent at a time.   ║
-    ╚══════════════════════════════════════════════════════════╝
-```
-
-### Building Production-Inspired Agentic AI Systems
-
-</div>
-
----
-
-## 👋 About Me
-
-AI Engineer with hands-on experience in **Agentic AI systems**, **Retrieval-Augmented Generation (RAG)**, and **backend orchestration**. Internship-trained and self-driven, I specialize in building modern LLM-powered applications that scale beyond chatbots.
-
-I approach AI engineering pragmatically:
-- **Not** research-focused or academic
-- **Building** practical AI systems with FastAPI + LLMs
-- **Learning** through production-inspired projects
-- **Exploring** multi-agent architectures and AI orchestration
-
-<table align="center" width="100%">
-<tr>
-<td align="center" width="50%">
-
-**Fresher AI Engineer**
-<br/>
-Startup mindset, systems mindset
-
-</td>
-<td align="center" width="50%">
-
-**India-based**
-<br/>
-Open to remote & hybrid roles
-
-</td>
-</tr>
-</table>
+<p align="center">
+  📫 kcsanjayj@gmail.com &nbsp;|&nbsp;
+  <a href="https://linkedin.com/in/kcsanjayj">LinkedIn</a> &nbsp;|&nbsp;
+  🇮🇳 India (open to remote/hybrid)
+</p>
 
 ---
 
-## 🛠️ Technical Toolkit
+### About
 
-**Languages:** Python • SQL • JavaScript (Basics)  
-**AI/ML:** Agentic AI • RAG • LangChain • LLM Engineering • Multi-Agent Workflows  
-**Backend:** FastAPI • REST APIs • Async Programming  
-**Databases:** MySQL • ChromaDB  
-**Infrastructure:** Docker • Git • AWS EC2  
-**Fundamentals:** DSA • OOP • DBMS
+I build agentic AI systems — planner/executor/critic architectures, RAG pipelines with
+self-evaluation, and multi-LLM orchestration. My background is a hands-on ML internship
+plus two solo projects where I designed the full system myself: planning, execution,
+failure handling, and evaluation loops, not just a single prompt wrapped in an API.
 
----
-
-## 🚀 Featured Projects
-
-### 🔵 **Aetherion** — Agentic Multi-LLM RAG System
-
-**A production-inspired evaluation-driven RAG architecture with bounded self-correction.**
-
-**What it does:**
-- Implements planner, critic, and retry agents for intelligent document processing
-- Semantic retrieval via ChromaDB with multi-provider LLM routing
-- Bounded self-correction loops to prevent infinite retries
-- Dockerized backend for scalable deployment
-
-**Why it matters:**
-> Demonstrates understanding of modern RAG pipelines beyond simple retrieval chains. Shows practical knowledge of agentic orchestration and multi-LLM systems.
-
-**Tech Stack:** Python • FastAPI • ChromaDB • LLMs • Docker
+I'm upfront about scope: these are engineering demonstrations, not production platforms.
+Both project READMEs list what's missing (tests, sandboxing, CI/CD) because I'd rather be
+accurate than impressive.
 
 ---
 
-### ⚡ **Dragonite** — Graph-Based AI Agent Framework
+### 🔧 What I actually work with
 
-**DAG-driven orchestration framework that converts natural language requests into executable workflows.**
-
-**What it does:**
-- Converts unstructured requests → executable Directed Acyclic Graph (DAG) workflows
-- Planner → Executor → Critic → Replanner architecture
-- Parallel task execution with dependency resolution
-- Unified abstraction for multiple LLM providers
-- FastAPI orchestration backend
-
-**Why it matters:**
-> Shows understanding of AI system orchestration beyond simple chatbots. Demonstrates knowledge of workflow engines, task parallelization, and agent coordination patterns.
-
-**Tech Stack:** Python • FastAPI • DAG Workflows • Multi-LLM Routing • Async Programming
+**Languages:** Python, SQL, JavaScript (basics)
+**AI/Agentic:** Agentic AI, RAG, LangChain, multi-agent workflows, LLM orchestration
+**Backend:** FastAPI, REST APIs, async Python
+**Data:** MySQL, ChromaDB
+**Infra:** Docker, Git, AWS EC2
 
 ---
 
-## 💼 Professional Experience
+### 🚀 Featured Projects
 
-### **Machine Learning Intern** — Tringapps Research Labs
+#### [Dragonite](https://github.com/kcsanjayj/Dragonite) — Graph-based multi-agent orchestrator
+Converts a user request into a dependency-aware task DAG, then runs it through
+Planner → Executor → Critic → Replanner → Synthesizer.
 
-Hands-on experience with modern LLM engineering practices:
-- Built LangChain automation workflows
-- Developed FastAPI microservices for AI integrations
-- Optimized LLM prompt pipelines
-- Containerized and deployed AI services
+- Independent tasks execute in parallel; dependent tasks wait on prerequisites
+- Configurable retry with backoff on task failure
+- Critic stage can reject weak output and trigger a repair/replan cycle instead of
+  returning it
+- Shared LLM client across planner/executor/synthesizer to avoid duplicated config
+- Built on Google ADK
 
-*Outcome: Transitioned learnings into personal projects (Aetherion, Dragonite)*
-
----
-
-## 🎯 What I'm Looking For
-
-- **AI/ML Teams** building real LLM systems
-- **Backend Roles** focused on AI infrastructure
-- **Startups** with agentic AI initiatives
-- **Companies** doing serious RAG/multi-agent work
-
-*Not* looking for: Tutorial projects, mock systems, or roles limited to simple chatbot development.
+**Stack:** Python 3.11, Google ADK, FastAPI, Pydantic, ThreadPoolExecutor, OpenTelemetry
 
 ---
 
-## 🔗 Let's Connect
+#### [Aetherion](https://github.com/kcsanjayj/Aetherion) — Self-correcting RAG system
+A RAG pipeline where every answer is scored by a critic agent before it reaches the
+user, with a bounded retry loop for low-quality responses.
 
-<div align="center">
+- Generate → Evaluate → Refine → Finalize pipeline (not a single retrieval+generate call)
+- Critic agent scores responses and gives specific feedback for retry ("missing
+  citations", "too shallow") rather than a blind regenerate
+- Multi-LLM fallback across 7+ providers (OpenAI, Anthropic, Groq, HuggingFace, etc.)
+  for timeout/failure recovery
+- Retries are bounded — explicitly avoids infinite refinement loops
+- Async FastAPI backend, ChromaDB for retrieval
 
-| Platform | Link |
-|----------|------|
-| **GitHub** | [github.com/kcsanjayj](https://github.com/kcsanjayj) |
-| **LinkedIn** | [linkedin.com/in/kcsanjayj](https://linkedin.com/in/kcsanjayj) |
-| **Email** | [kcsanjayj@gmail.com](mailto:kcsanjayj@gmail.com) |
+**Live demo:** https://agentic-rag-gamma.vercel.app
 
-</div>
+**Stack:** FastAPI, ChromaDB, OpenAI/Anthropic/Groq, sentence-transformers, Docker, Railway
 
 ---
 
-<div align="center">
+### 💼 Experience
 
-### 🚀 Open to Opportunities
+**Machine Learning Intern — Tringapps Research Labs**
+Built LangChain automation workflows, FastAPI microservices for AI integrations, and
+optimized LLM prompt pipelines. Took what I learned there directly into Aetherion and
+Dragonite as personal projects.
 
-Interested in building the next generation of intelligent systems. Let's talk AI, agents, and backend architecture.
+---
 
-```
-AI Engineer | Fresher | India
-Learning by Building • Production-Inspired Projects
-```
+### 🎯 Looking for
 
-</div>
+AI/ML or backend roles where the work is real LLM systems — agentic pipelines, RAG,
+AI infrastructure — not tutorial-tier chatbot integrations.
 
+---
 
+<p align="center"><i>Learning by building — production-inspired, not production-claimed.</i></p>
