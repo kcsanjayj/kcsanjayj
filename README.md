@@ -99,7 +99,5 @@ Opportunities to **build, learn, and solve hard problems in AI** — especially 
 
 > **Curious enough to explore.
 > Serious enough to build.**
-
-           Roles where the work is real LLM infrastructure — agentic pipelines, RAG, orchestration. Open to remote/hybrid.
-
-<p align="center"><i>Fresher on paper. Built two systems that fail gracefully and recover on their own — judge from there.</i></p>
+>
+> 
