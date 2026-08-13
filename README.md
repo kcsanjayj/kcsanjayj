@@ -11,11 +11,11 @@
 
 ### 👋 About
 
-* 🧠 **Curious by nature** — fascinated by how machines can learn, reason, and make decisions.
-* 🤖 **Focused on AI** — exploring Machine Learning, LLMs, Agentic AI, and RAG.
-* 🔍 **Learn from first principles** — I like understanding what's happening under the hood, not just using the tools.
-* 🛠️ **Learn by building** — turning ideas into practical systems and learning from what breaks.
-* 🎯 **Long-term goal** — become an AI Engineer who builds systems that are genuinely useful.
+- 🧠 **Curious by nature** — started with a simple question: *how can machines learn, reason, and make decisions?*
+- 🤖 **Focused on AI** — exploring Machine Learning, LLMs, Agentic AI, and RAG.
+- 🔍 **Learn from first principles** — understanding what's happening under the hood, not just using the tools.
+- 🛠️ **Learn by building** — turning ideas into practical systems and learning from what breaks.
+- 🎯 **Long-term goal** — build AI systems that are reliable, useful, and worth putting into the real world.
 
 ---
 
