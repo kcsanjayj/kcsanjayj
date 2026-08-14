@@ -49,7 +49,7 @@ I'm a fresher who learns from first principles and turns what I learn into worki
 <td width="50%" valign="top">
 
 **[Dragonite](https://github.com/kcsanjayj/Dragonite)**
-Graph-based agent orchestrator
+a Graph-based agent orchestrator
 
 Requests become dependency-aware task DAGs.
 Independent tasks run in parallel, failures
@@ -62,7 +62,7 @@ and repaired — not just re-tried blindly.
 <td width="50%" valign="top">
 
 **[Aetherion](https://github.com/kcsanjayj/Aetherion)**
-Agentic RAG system
+a Agentic RAG system
 
 Every answer is scored by a critic agent
 before it reaches the user. Low scores
