@@ -62,7 +62,7 @@ and repaired — not just re-tried blindly.
 <td width="50%" valign="top">
 
 **[Aetherion](https://github.com/kcsanjayj/Aetherion)**
-a Agentic RAG system
+an Agentic RAG system
 
 Every answer is scored by a critic agent
 before it reaches the user. Low scores
