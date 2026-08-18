@@ -78,9 +78,3 @@ feedback, not a blind regenerate.
 </table>
 
 ---
-
-### 🎯 Looking for
-
-Opportunities to **build, learn, and solve hard problems in AI** — especially across **Agentic AI, LLM systems, RAG, and AI engineering**.
-
->                                     **Curious enough to explore.Serious enough to build.**
