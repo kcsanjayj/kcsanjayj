@@ -76,5 +76,3 @@ feedback, not a blind regenerate.
 </td>
 </tr>
 </table>
-
----
