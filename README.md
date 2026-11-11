@@ -61,7 +61,7 @@ and repaired — not just re-tried blindly.
 </td>
 <td width="50%" valign="top">
 
-**[Aetherion](https://github.com/kcsanjayj/Aetherion)**
+**[MEI](https://github.com/kcsanjayj/Aetherion)**
 an Agentic RAG system
 
 Every answer is scored by a critic agent
