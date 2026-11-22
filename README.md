@@ -71,8 +71,7 @@ feedback, not a blind regenerate.
 
 `FastAPI` `ChromaDB` `Multi-LLM` `Docker`
 
-[**→ Live demo**](https://agentic-rag-gamma.vercel.app)
-
+[**→ Live demo**](spaghetti.kcsanjayj.workers.dev)
 </td>
 </tr>
 </table>
