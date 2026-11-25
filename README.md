@@ -48,7 +48,7 @@ I'm a fresher who learns from first principles and turns what I learn into worki
 <tr>
 <td width="50%" valign="top">
 
-**[Dragonite](https://github.com/kcsanjayj/Dragonite)**
+**[rapTOR](https://github.com/kcsanjayj/rapTOR)**
 a Graph-based agent orchestrator
 
 Requests become dependency-aware task DAGs.
