@@ -61,7 +61,7 @@ and repaired — not just re-tried blindly.
 </td>
 <td width="50%" valign="top">
 
-**[Spaghetti](https://github.com/kcsanjayj/Aetherion)**
+**[Spaghetti](https://github.com/kcsanjayj/Spaghetti)**
 an Agentic RAG system
 
 Every answer is scored by a critic agent
