@@ -43,11 +43,36 @@ A 13.9M-parameter decoder-only transformer implemented in PyTorch and trained fr
 
 ## Technical Skills
 
-| Area | Tools |
-|---|---|
-| Languages | Python, Rust, JavaScript |
-| ML and LLMs | PyTorch, Hugging Face, Ollama, retrieval (BM25), agent orchestration, LLM evaluation |
-| Engineering | Git, GitHub Actions, pytest, cargo test, Playwright |
+<table>
+<tr>
+<td width="140"><b>Languages</b></td>
+<td>
+  <img src="https://skillicons.dev/icons?i=py,rust,js,html,css" alt="Python, Rust, JavaScript, HTML, CSS" />
+</td>
+</tr>
+<tr>
+<td><b>ML and LLMs</b></td>
+<td>
+  <img src="https://skillicons.dev/icons?i=pytorch" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face" />
+  <img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama" />
+  <br/>
+  <img src="https://img.shields.io/badge/Retrieval-BM25-2F81F7?style=flat-square" alt="BM25 retrieval" />
+  <img src="https://img.shields.io/badge/Agent-Orchestration-2F81F7?style=flat-square" alt="Agent orchestration" />
+  <img src="https://img.shields.io/badge/LLM-Evaluation-2F81F7?style=flat-square" alt="LLM evaluation" />
+</td>
+</tr>
+<tr>
+<td><b>Engineering</b></td>
+<td>
+  <img src="https://skillicons.dev/icons?i=git,github,githubactions,vscode,powershell" alt="Git, GitHub, GitHub Actions, VS Code, PowerShell" />
+  <br/>
+  <img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" alt="pytest" />
+  <img src="https://img.shields.io/badge/cargo%20test-000000?style=flat-square&logo=rust&logoColor=white" alt="cargo test" />
+  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" alt="Playwright" />
+</td>
+</tr>
+</table>
 
 ## Current Work
 
