@@ -1,30 +1,56 @@
+<div align="center">
+
 # Sanjay J
 
-**AI Engineer** · LLM systems, agent orchestration and retrieval
+### AI Engineer
 
-[Email](mailto:kcsanjayj@gmail.com) · [LinkedIn](https://linkedin.com/in/kcsanjayj) · [Hugging Face](https://huggingface.co/kcsanjayj)
+LLM systems · Agent orchestration · Retrieval · Model training
+
+<a href="mailto:kcsanjayj@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://linkedin.com/in/kcsanjayj"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://huggingface.co/kcsanjayj"><img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face" /></a>
+
+</div>
 
 ---
 
 ## About
 
-I build LLM-based systems with a focus on reliability: validated task planning, review and repair of weak outputs, bounded retries and budgets, and evaluation harnesses that state clearly what they do and do not measure.
+I build LLM-based systems with an emphasis on reliability. That means validated task planning, review and repair of weak outputs, bounded retries and budgets, and evaluation harnesses that state clearly what they do and do not measure.
 
-I am an early-career engineer. My approach is to learn each layer from first principles, build a working system around it, and document its limitations in the repository.
+I am an early-career engineer. I learn each layer from first principles, build a working system around it, and document its limitations in the repository.
+
+---
 
 ## Selected Projects
 
-### [rapTOR](https://github.com/kcsanjayj/rapTOR): Multi-agent orchestrator
-*Rust, Python, Ollama*
+<table>
+<tr>
+<td width="72" align="center" valign="top">
+  <img src="https://skillicons.dev/icons?i=rust" alt="Rust" width="48" />
+</td>
+<td valign="top">
+
+### [rapTOR](https://github.com/kcsanjayj/rapTOR) · Multi-agent orchestrator
 
 Plans a request into a validated dependency graph, runs independent tasks in parallel, reviews each result with a critic, and repairs weak output with targeted feedback. Runs offline against a local model or a seeded simulator with fault injection.
 
 - 63 Rust tests and 26 deterministic end-to-end evals, run in CI on Ubuntu and Windows
-- Rewritten after a self-review of a first version that found eight defects; each now has a regression test
-- Four direct dependencies; plan validator, calculator and parsers are hand-written and bounded
+- Rewritten after a self-review of the first version found eight defects; each now has a regression test
+- Four direct dependencies; the plan validator, calculator and parsers are hand-written and bounded
 
-### [Spaghetti](https://github.com/kcsanjayj/Spaghetti): Local document Q&A (RAG)
-*Python, Rust, JavaScript, Ollama*
+<img src="https://skillicons.dev/icons?i=rust,py,githubactions" alt="Rust, Python, GitHub Actions" />
+<img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama" />
+
+</td>
+</tr>
+<tr>
+<td align="center" valign="top">
+  <img src="https://skillicons.dev/icons?i=py" alt="Python" width="48" />
+</td>
+<td valign="top">
+
+### [Spaghetti](https://github.com/kcsanjayj/Spaghetti) · Local document Q&A (RAG)
 
 Answers questions over PDF, DOCX and text files using a model running on the user's own machine, with streaming responses and citations. No cloud services or API keys. [Live UI](https://spaghetti.kcsanjayj.workers.dev) (requires the local backend for chat).
 
@@ -32,23 +58,40 @@ Answers questions over PDF, DOCX and text files using a model running on the use
 - Rust core for chunking and ranking, with a pure-Python equivalent and parity tests
 - 87 tests, a 28-case evaluation harness, and zero axe-core accessibility violations
 
-### [TinyGPT-X](https://github.com/kcsanjayj/TinyGPT-X): Language model from scratch
-*PyTorch, Hugging Face*
+<img src="https://skillicons.dev/icons?i=py,rust,js,html,css" alt="Python, Rust, JavaScript, HTML, CSS" />
+<img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama" />
+
+</td>
+</tr>
+<tr>
+<td align="center" valign="top">
+  <img src="https://skillicons.dev/icons?i=pytorch" alt="PyTorch" width="48" />
+</td>
+<td valign="top">
+
+### [TinyGPT-X](https://github.com/kcsanjayj/TinyGPT-X) · Language model from scratch
 
 A 13.9M-parameter decoder-only transformer implemented in PyTorch and trained from random initialization on a single 6 GB laptop GPU. Published on the [Hugging Face Hub](https://huggingface.co/kcsanjayj/TinyGPT-X) in GPT-2 format.
 
-- Validation perplexity of 6.05 on TinyStories, with training completing in about 11 minutes
+- Validation perplexity of 6.05 on TinyStories; training completed in about 11 minutes
 - Exported logits verified against the native implementation
 - Unit tests covering causality, attention equivalence and export parity
+
+<img src="https://skillicons.dev/icons?i=pytorch,py" alt="PyTorch, Python" />
+<img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face" />
+
+</td>
+</tr>
+</table>
+
+---
 
 ## Technical Skills
 
 <table>
 <tr>
-<td width="140"><b>Languages</b></td>
-<td>
-  <img src="https://skillicons.dev/icons?i=py,rust,js,html,css" alt="Python, Rust, JavaScript, HTML, CSS" />
-</td>
+<td width="150"><b>Languages</b></td>
+<td><img src="https://skillicons.dev/icons?i=py,rust,js,html,css" alt="Python, Rust, JavaScript, HTML, CSS" /></td>
 </tr>
 <tr>
 <td><b>ML and LLMs</b></td>
@@ -74,12 +117,30 @@ A 13.9M-parameter decoder-only transformer implemented in PyTorch and trained fr
 </tr>
 </table>
 
+---
+
+## How I Work
+
+| Principle | In practice |
+|---|---|
+| Make failure visible | Retries are counted, partial results are labelled, and call budgets are capped. |
+| Test the machinery | Deterministic simulators and fault injection make recovery reproducible. |
+| State the limits | Each README says what its evals prove and what they do not. |
+
+---
+
 ## Current Work
 
 - Evaluating rapTOR against local models and tuning planner prompts
 - Adding embedding-based retrieval to Spaghetti behind the existing ranking interface
 
-## Contact
+---
 
-Open to AI and ML engineering roles.
-[kcsanjayj@gmail.com](mailto:kcsanjayj@gmail.com) · [linkedin.com/in/kcsanjayj](https://linkedin.com/in/kcsanjayj)
+<div align="center">
+
+### Open to AI and ML engineering roles
+
+<a href="mailto:kcsanjayj@gmail.com"><img src="https://img.shields.io/badge/kcsanjayj@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://linkedin.com/in/kcsanjayj"><img src="https://img.shields.io/badge/linkedin.com/in/kcsanjayj-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+
+</div>
