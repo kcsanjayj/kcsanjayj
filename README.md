@@ -1,6 +1,10 @@
 <div align="center">
 
-<img src="assets/hero.svg" alt="Sanjay J — AI Engineer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=230&section=header&text=Sanjay%20J&fontSize=72&fontColor=ffffff&fontAlignY=36&animation=fadeIn&desc=AI%20Engineer%20%C2%B7%20Built%20for%20Reliability&descSize=20&descAlignY=58" alt="Sanjay J — AI Engineer" width="100%" />
+
+<a href="https://github.com/kcsanjayj">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=7DD3FC&center=true&vCenter=true&width=760&height=50&lines=LLM+systems+that+recover+from+failure;Agents+with+budgets%2C+critics+and+repair+loops;Models+trained+from+scratch;Evals+that+state+their+limits" alt="Typing animation" />
+</a>
 
 <br/>
 
@@ -36,7 +40,23 @@ Early-career, and I learn each layer from first principles: build it, test it, d
 
 ### 🦀 [rapTOR](https://github.com/kcsanjayj/rapTOR) · Multi-agent orchestrator
 
-<div align="center"><img src="assets/flow.svg" alt="rapTOR pipeline: request, planner, parallel tasks, critic with repair loop, result" width="100%" /></div>
+```mermaid
+flowchart LR
+    R([Request]) --> P[Planner<br/>validated DAG]
+    P --> A[Task A]
+    P --> B[Task B]
+    P --> C[Task C]
+    A --> K{Critic}
+    B --> K
+    C --> K
+    K -- weak output --> F[Targeted feedback]
+    F -.repair.-> A
+    K -- accepted --> O([Result<br/>retries counted])
+    style P fill:#131c2e,stroke:#7dd3fc,color:#e6edf7
+    style K fill:#131c2e,stroke:#a78bfa,color:#e6edf7
+    style O fill:#0f2e24,stroke:#34d399,color:#e6edf7
+    style F fill:#2e1330,stroke:#f0abfc,color:#e6edf7
+```
 
 Plans a request into a validated dependency graph, runs independent tasks in parallel, reviews each result with a critic, and repairs weak output with targeted feedback. Runs fully offline against a local model or a seeded simulator with fault injection.
 
@@ -110,8 +130,8 @@ A 13.9M-parameter decoder-only transformer in PyTorch, trained from random init 
 
 ### 🟢 Open to AI and ML engineering roles
 
-<img src="assets/footer.svg" alt="Let's build something reliable." width="100%" />
-
 <a href="mailto:kcsanjayj@gmail.com">kcsanjayj@gmail.com</a> · <a href="https://linkedin.com/in/kcsanjayj">linkedin.com/in/kcsanjayj</a>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=fadeIn" alt="" width="100%" />
 
 </div>
