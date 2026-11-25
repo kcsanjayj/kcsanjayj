@@ -57,10 +57,6 @@ Ask questions over PDF, DOCX and text with a local model. Citations included, no
 
 <br/>
 
-## Now
-
-Testing rapTOR on local models, and adding embedding retrieval to Spaghetti.
-
 <div align="center">
 
 ### 🟢 Open to AI and ML engineering roles
