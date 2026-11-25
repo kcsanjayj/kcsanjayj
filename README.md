@@ -1,98 +1,116 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:2f81f7&height=180&section=header&text=Sanjay%20J&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38" alt="Sanjay J" />
-
-<h3>🤖 AI Engineer: turning LLMs into systems that don't just talk, they work</h3>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:2f81f7&height=190&section=header&text=Sanjay%20J&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20Engineer&descSize=20&descAlignY=60" alt="Sanjay J, AI Engineer" />
 
 <a href="https://github.com/kcsanjayj">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=2F81F7&center=true&vCenter=true&width=640&lines=Agents+%C2%B7+RAG+%C2%B7+Models+from+scratch;I+build+it%2C+then+I+measure+it;Honest+evals%2C+honest+limitations" alt="Typing intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1400&color=2F81F7&center=true&vCenter=true&width=700&lines=Most+agent+demos+fail+silently.+Mine+fail+honestly.;I+trained+a+GPT+from+random+weights+on+a+laptop.;I+built+a+RAG+app+that+never+leaves+your+machine.;Build+it.+Break+it.+Measure+it." alt="Typing intro" />
 </a>
 
-<p>
-  <a href="mailto:kcsanjayj@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://linkedin.com/in/kcsanjayj"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="https://huggingface.co/kcsanjayj"><img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/></a>
-</p>
+<br/><br/>
+
+<a href="mailto:kcsanjayj@gmail.com"><img src="https://img.shields.io/badge/Hire%20me-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<a href="https://linkedin.com/in/kcsanjayj"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="https://huggingface.co/kcsanjayj"><img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/></a>
 
 </div>
 
 ---
 
-### 👋 About
+## ⚡ The pitch
 
-I started with a simple curiosity: how can machines learn, reason, and do more than just follow instructions? That curiosity led me from Machine Learning into LLMs, Agentic AI, and RAG.
+Anyone can make an LLM demo that works once.
+I build the part that comes after: **the machinery that keeps it honest when things go wrong.**
 
-I'm a fresher who learns from first principles and turns what I learn into working systems. My goal is to build AI that is not just impressive in a demo, but genuinely useful in the real world.
+Retries that are counted. Bad answers that get caught and repaired. Partial results that are labelled as partial. And every claim in my READMEs is backed by a test or an eval I can show you.
+
+I'm a fresher, so I can't point to years of experience. What I can point to is three repos where I did the work, measured it, and wrote down where it falls short.
 
 ---
 
-### 🚀 Projects
+## 📊 By the numbers
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<div align="center">
 
-**[🦅 rapTOR](https://github.com/kcsanjayj/rapTOR)**
-*a graph-based agent orchestrator in Rust*
+| 🧪 **63** | ✅ **26** | 🔍 **87** | 🧠 **13.9M** | ⏱️ **~11 min** |
+|:---:|:---:|:---:|:---:|:---:|
+| Rust tests in rapTOR | deterministic agent evals | tests in Spaghetti | parameters, trained from scratch | to train TinyGPT-X on a laptop GPU |
 
-Requests become validated task DAGs. Independent tasks run in parallel, a critic reviews every result, and weak output is repaired with specific feedback. Failures are counted and labelled, never hidden.
+</div>
 
-63 Rust tests · 26 deterministic evals
+---
+
+## 🚀 What I've built
+
+### 🦅 [rapTOR](https://github.com/kcsanjayj/rapTOR)
+> **"A multi-agent orchestrator you can actually trust to fail honestly."**
+
+I built a first version, reviewed it honestly, and found **8 silent bugs** hiding behind plausible answers: tasks that never received their dependencies' output, a critic that skipped the last step, a calculator that one prompt could hang forever. Then I rewrote the core in Rust, and each of those bugs now has a regression test that fails if it comes back.
+
+- 🕸️ Plans a request into a validated task graph and runs independent branches in parallel
+- 🧑‍⚖️ A critic reviews every result and weak output is repaired with specific feedback
+- 💥 A seeded simulator injects 503s, bad drafts and dead tasks, so recovery is reproducible
+- 🔒 Runs fully offline, with only 4 direct dependencies
 
 `Rust` `Python` `Ollama`
 
-</td>
-<td width="50%" valign="top">
+---
 
-**[🍝 Spaghetti](https://github.com/kcsanjayj/Spaghetti)**
-*private RAG over your own documents*
+### 🍝 [Spaghetti](https://github.com/kcsanjayj/Spaghetti)
+> **"Chat with your own documents, privately, on your own laptop."**
 
-Chat with PDFs, DOCX and text files using a local model. No cloud, no API keys. Streaming answers with citations, and an opt-in judge pass for careful mode.
+No cloud. No accounts. No API keys. Drop in a PDF or DOCX and ask questions. A small local model answers with citations, and when the documents don't contain the answer, it says so instead of making one up.
 
-87 tests · 28-case eval harness
+- 📉 I tuned the relevance filter with an ablation and not a guess: abstention went **0.8 → 1.0** with no retrieval loss
+- 🦀 The fast core is Rust, with a pure-Python twin and parity tests proving they agree
+- ♿ 0 accessibility violations, 19 browser end-to-end checks
 
-`Python` `Rust` `JavaScript` `Ollama`
-
-[**→ Live UI**](https://spaghetti.kcsanjayj.workers.dev)
-
-</td>
-</tr>
-<tr>
-<td colspan="2" valign="top">
-
-**[🧠 TinyGPT-X](https://github.com/kcsanjayj/TinyGPT-X)**
-*a 13.9M-parameter GPT trained from scratch*
-
-Written in PyTorch and trained from random initialization on one laptop GPU in about 11 minutes. Validation perplexity 6.05 on TinyStories. Published on [Hugging Face](https://huggingface.co/kcsanjayj/TinyGPT-X).
-
-`PyTorch` `Hugging Face` `Python`
-
-</td>
-</tr>
-</table>
+`Python` `Rust` `JavaScript` `Ollama` · [**▶ Live UI**](https://spaghetti.kcsanjayj.workers.dev)
 
 ---
 
-### 🧰 Stack
+### 🧠 [TinyGPT-X](https://github.com/kcsanjayj/TinyGPT-X)
+> **"No pretrained weights. No shortcuts. Just a GPT, from random initialization."**
+
+A decoder-only transformer written by hand in PyTorch and trained on a 6 GB laptop GPU. It reaches a validation perplexity of **6.05** on TinyStories, and then it's published on [Hugging Face](https://huggingface.co/kcsanjayj/TinyGPT-X) in the standard GPT-2 format, with the exported logits verified against my own implementation.
+
+- 📐 Tests prove the attention is causal and that my math matches the fused kernel
+- 📈 Every number in the README is generated from the real training run, never typed by hand
+
+`PyTorch` `Hugging Face` `Python`
+
+---
+
+## 🧭 How I work
+
+| | |
+|---|---|
+| **1. Build it** | Start from first principles, keep dependencies few, and keep the code readable. |
+| **2. Break it** | Fault injection, adversarial inputs and a v1 review I wrote against myself. |
+| **3. Measure it** | Evals and tests first, and then I say what the numbers do and don't prove. |
+
+---
+
+## 🧰 Toolbox
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white"/>
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-  <br/>
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
+  <br/>
   <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
   <img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white"/>
-  <br/>
-  <img src="https://img.shields.io/badge/RAG-6E56CF?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Multi--Agent%20Systems-111827?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/LLM%20Evals-2F81F7?style=for-the-badge"/>
-  <br/>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
   <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"/>
 </p>
 
 ---
+
+## 🤝 Let's talk
+
+Hiring for an AI or ML role, or want to build something where **reliability matters more than the demo?**
+
+📧 [kcsanjayj@gmail.com](mailto:kcsanjayj@gmail.com) · 💼 [linkedin.com/in/kcsanjayj](https://linkedin.com/in/kcsanjayj)
 
 <div align="center">
 
