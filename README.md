@@ -1,10 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=230&section=header&text=Sanjay%20J&fontSize=72&fontColor=ffffff&fontAlignY=36&animation=fadeIn&desc=AI%20Engineer%20%C2%B7%20Built%20for%20Reliability&descSize=20&descAlignY=58" alt="Sanjay J — AI Engineer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Sanjay%20J&fontSize=70&fontColor=ffffff&fontAlignY=38&animation=fadeIn&desc=AI%20Engineer&descSize=20&descAlignY=60" alt="Sanjay J — AI Engineer" width="100%" />
 
-<a href="https://github.com/kcsanjayj">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=7DD3FC&center=true&vCenter=true&width=760&height=50&lines=LLM+systems+that+recover+from+failure;Agents+with+budgets%2C+critics+and+repair+loops;Models+trained+from+scratch;Evals+that+state+their+limits" alt="Typing animation" />
-</a>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1400&color=F87171&center=true&vCenter=true&width=820&height=50&lines=Most+LLM+systems+fail+silently.;Mine+fail+honestly.;Retries+counted.+Partials+labelled.+Budgets+capped." alt="Most LLM systems fail silently. Mine fail honestly." />
 
 <br/>
 
@@ -16,11 +14,58 @@
 
 <br/>
 
-## ⚡ In one breath
+## 🎯 The idea
 
-I build LLM systems that **fail visibly and recover on purpose**: validated plans, critics that review output, bounded retries and budgets, and evals that say plainly what they do *and don't* prove.
+A model that is wrong is normal. A system that is wrong **and looks fine** is the real problem.
 
-Early-career, and I learn each layer from first principles: build it, test it, document its limits.
+I build LLM systems where failure is a first-class, visible outcome: validated plans, critics that review output, bounded retries and budgets, and evals that say plainly what they do *and don't* prove.
+
+I'm early-career, and I learn each layer from first principles: build it, test it, document its limits.
+
+<br/>
+
+## 🔴 Silent failure vs 🟢 Honest failure
+
+| Situation | 🔴 Typical system | 🟢 How I build it |
+|---|---|---|
+| Weak model output | Shipped as if it were fine | A critic reviews it, then repairs it with targeted feedback |
+| Retries | Happen invisibly | Counted and reported |
+| Partial results | Presented as complete | Labelled as partial |
+| Cost and calls | Unbounded | Budgets capped |
+| Evals | "It works" | Each README states what the evals prove, and what they don't |
+| Recovery | Hard to reproduce | Deterministic simulators and fault injection make it repeatable |
+
+```mermaid
+flowchart LR
+    W([Weak output]) --> S1[Silent system]
+    S1 --> S2[/Looks fine/]
+    S2 --> S3([Wrong answer, no signal])
+    W --> H1{Critic}
+    H1 -- repair --> H2[Targeted feedback]
+    H2 --> H1
+    H1 -- accepted --> H3([Result + retries counted])
+    H1 -- budget hit --> H4([Partial, labelled as partial])
+    style S1 fill:#2b1215,stroke:#f87171,color:#fecaca
+    style S2 fill:#2b1215,stroke:#f87171,color:#fecaca
+    style S3 fill:#2b1215,stroke:#f87171,color:#fecaca
+    style H1 fill:#131c2e,stroke:#a78bfa,color:#e6edf7
+    style H2 fill:#2e1330,stroke:#f0abfc,color:#e6edf7
+    style H3 fill:#0f2e24,stroke:#34d399,color:#d1fae5
+    style H4 fill:#2e2a10,stroke:#fbbf24,color:#fef3c7
+```
+
+<details>
+<summary><b>What "fails honestly" looks like (illustrative sketch)</b></summary>
+
+```text
+task: summarise_report      status: PARTIAL
+  attempts ........ 3 / 3   (budget exhausted)
+  critic verdict .. weak: missing citation for claim 2
+  output .......... returned, labelled partial
+  note ............ not retried further; no silent fallback
+```
+
+</details>
 
 <br/>
 
@@ -39,24 +84,6 @@ Early-career, and I learn each layer from first principles: build it, test it, d
 ## 🚀 Selected Projects
 
 ### 🦀 [rapTOR](https://github.com/kcsanjayj/rapTOR) · Multi-agent orchestrator
-
-```mermaid
-flowchart LR
-    R([Request]) --> P[Planner<br/>validated DAG]
-    P --> A[Task A]
-    P --> B[Task B]
-    P --> C[Task C]
-    A --> K{Critic}
-    B --> K
-    C --> K
-    K -- weak output --> F[Targeted feedback]
-    F -.repair.-> A
-    K -- accepted --> O([Result<br/>retries counted])
-    style P fill:#131c2e,stroke:#7dd3fc,color:#e6edf7
-    style K fill:#131c2e,stroke:#a78bfa,color:#e6edf7
-    style O fill:#0f2e24,stroke:#34d399,color:#e6edf7
-    style F fill:#2e1330,stroke:#f0abfc,color:#e6edf7
-```
 
 Plans a request into a validated dependency graph, runs independent tasks in parallel, reviews each result with a critic, and repairs weak output with targeted feedback. Runs fully offline against a local model or a seeded simulator with fault injection.
 
@@ -92,16 +119,6 @@ A 13.9M-parameter decoder-only transformer in PyTorch, trained from random init 
 
 <br/>
 
-## 🧭 How I work
-
-| Principle | In practice |
-|---|---|
-| 👁️ **Make failure visible** | Retries are counted, partial results labelled, call budgets capped. |
-| 🧪 **Test the machinery** | Simulators and fault injection make recovery reproducible. |
-| 📏 **State the limits** | Every README says what its evals prove, and what they don't. |
-
-<br/>
-
 ## 🛠️ Toolbox
 
 <div align="center">
@@ -132,6 +149,8 @@ A 13.9M-parameter decoder-only transformer in PyTorch, trained from random init 
 
 <a href="mailto:kcsanjayj@gmail.com">kcsanjayj@gmail.com</a> · <a href="https://linkedin.com/in/kcsanjayj">linkedin.com/in/kcsanjayj</a>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=fadeIn" alt="" width="100%" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1000&color=34D399&center=true&vCenter=true&width=520&height=30&lines=Fail+honestly.+Recover+on+purpose." alt="Fail honestly. Recover on purpose." />
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=110&section=footer&animation=fadeIn" alt="" width="100%" />
 
 </div>
