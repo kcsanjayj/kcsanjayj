@@ -1,78 +1,71 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=34D399&center=true&vCenter=true&width=760&height=48&lines=%24+whoami;Sanjay+J+%C2%B7+AI+engineer;%24+cat+philosophy.txt;Most+LLM+systems+fail+silently.;Mine+fail+honestly." alt="$ whoami: Sanjay J, AI engineer. Most LLM systems fail silently. Mine fail honestly." />
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0b1020,50:6d28d9,100:f43f5e&height=260&section=header&text=I%20build%20AI%20that%20admits%20when%20it's%20wrong.&fontSize=40&fontColor=ffffff&fontAlignY=42&animation=fadeIn&desc=Sanjay%20J%20%C2%B7%20AI%20Engineer%20%C2%B7%20Rust%20%C2%B7%20Python%20%C2%B7%20PyTorch&descSize=18&descAlignY=66" alt="I build AI that admits when it's wrong. Sanjay J, AI Engineer." width="100%" />
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1300&color=F43F5E&center=true&vCenter=true&width=780&height=48&lines=Most+LLM+systems+fail+silently.;Mine+count+their+retries.;Mine+label+their+partials.;Mine+cap+their+budgets." alt="Most LLM systems fail silently. Mine count their retries, label their partials, cap their budgets." />
+
+<br/>
+
+<a href="mailto:kcsanjayj@gmail.com"><img src="https://img.shields.io/badge/Hire_me-f43f5e?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://linkedin.com/in/kcsanjayj"><img src="https://img.shields.io/badge/LinkedIn-6d28d9?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://huggingface.co/kcsanjayj"><img src="https://img.shields.io/badge/Hugging_Face-0b1020?style=for-the-badge&logo=huggingface&logoColor=FFD21E" alt="Hugging Face" /></a>
 
 </div>
 
 <br/>
 
-```text
-$ ./sanjay --self-test
+<div align="center">
 
-PASS  plans, parallelizes, critiques and repairs agent work        rapTOR
-PASS  private document Q&A with measured retrieval                 Spaghetti
-PASS  transformer from random init on a 6 GB laptop GPU            TinyGPT-X
-PASS  audits its own v1, regression-tests every defect found       8 / 8 fixed
-PASS  writes the limitations section before being asked            every repo
-SKIP  production scale, multi-user hosting                         not yet, and I say so
+| 🔥 **8 / 8** | ✅ **63 + 6** | 🧪 **26** | 📈 **0.8 → 1.0** | ⏱️ **11.3 min** |
+|:---:|:---:|:---:|:---:|:---:|
+| own-v1 defects fixed,<br/>each regression-tested | Rust + Python tests<br/>in rapTOR | deterministic<br/>agent evals | abstention in Spaghetti,<br/>via ablation | to train a GPT<br/>from scratch |
 
-5 passed · 1 skipped · 0 hidden
-```
+</div>
 
 <br/>
 
-## 🧾 Build log
+## ⚡ The three things I'm proudest of
 
-| | Project | What it proves | Proof |
-|---|---|---|---|
-| 🦀 | **[rapTOR](https://github.com/kcsanjayj/rapTOR)** | Orchestration you can trust to fail honestly: validated DAG, parallel workers, critic-gated repair | 63 Rust tests · 6 Python tests · 26 evals · 4 direct dependencies |
-| 🍝 | **[Spaghetti](https://github.com/kcsanjayj/Spaghetti)** · [live UI](https://spaghetti.kcsanjayj.workers.dev) | Private RAG over your own PDFs and DOCX, no cloud, no API keys | 87 tests · abstention 0.8 → 1.0 via ablation · 0 a11y violations |
-| 🧠 | **[TinyGPT-X](https://github.com/kcsanjayj/TinyGPT-X)** · [model](https://huggingface.co/kcsanjayj/TinyGPT-X) | A GPT written by hand and trained with no pretrained weights | 13.9M params · val. perplexity 6.05 · 11.3 min on an RTX 3050 |
+### 🦀 [rapTOR](https://github.com/kcsanjayj/rapTOR) · agents you can trust to fail honestly
+Plans a request into a validated dependency graph, runs tasks in parallel, has a critic review and repair every result, and **labels what it couldn't do**.
+> My v1 looked fine and was broken: tasks never got their inputs, the critic skipped the last step, and `9**9**9` hung the calculator. I found all 8 defects myself and wrote a test for each.
+
+`Rust` `Python` `Ollama` · 4 direct dependencies · CI on Ubuntu and Windows
+
+### 🍝 [Spaghetti](https://github.com/kcsanjayj/Spaghetti) · chat with your documents, privately
+Streaming answers with citations over your PDFs and DOCX, running entirely on your laptop. [Live UI →](https://spaghetti.kcsanjayj.workers.dev)
+> I didn't guess the relevance threshold. An ablation picked it: abstention went 0.8 → 1.0 with no loss in retrieval.
+
+`Python` `Rust` `JavaScript` · 87 tests · 19 browser E2E checks · 0 accessibility violations
+
+### 🧠 [TinyGPT-X](https://github.com/kcsanjayj/TinyGPT-X) · a GPT built from nothing
+Transformer, tokenizer and training loop written by hand, trained from random init on one 6 GB laptop GPU. [Model →](https://huggingface.co/kcsanjayj/TinyGPT-X)
+> The export is verified: if the Hugging Face model's logits differ from the native model, the script fails.
+
+`PyTorch` `Hugging Face` · 13.9M params · val. perplexity 6.05
 
 <br/>
 
-## 🐛 A bug report I filed on myself
+## 🧠 What that adds up to
 
-My first rapTOR looked fine and was broken. I reviewed it, rewrote it, and gave every defect a test that fails if it returns.
-
-| What was silently wrong | Why it hid | Now |
-|---|---|---|
-| Tasks never got their dependencies' outputs | Final answer still looked plausible | Data-flow eval |
-| Critic skipped the last step | Review existed in the diagram, not the code | Critic covers 100% of LLM nodes |
-| Bad plan fell back to a canned demo | Ask about Rome, get Python vs Rust | Neutral fallback, rejected plans sent back with the reason |
-| `9**9**9` hung the calculator | One prompt could pin a CPU | Bounded calculator, fails fast |
+- 🦀 **Systems:** concurrent schedulers, DAG validation, bounded tools
+- 🔬 **ML:** hand-written transformers, tokenizers, training and evals
+- 🔎 **Retrieval:** BM25 pipelines tuned by ablation
+- 🛡️ **Reliability:** fault injection, call budgets, a regression test for every bug
+- 📝 **Honesty:** every repo ships a limitations section
 
 <br/>
-
-## 🧰 Stack
 
 <div align="center">
 
 <img src="https://skillicons.dev/icons?i=rust,py,pytorch,js,html,css,git,githubactions,powershell&perline=9" alt="Rust, Python, PyTorch, JavaScript, HTML, CSS, Git, GitHub Actions, PowerShell" />
 
-<br/>
+<br/><br/>
 
-<img src="https://img.shields.io/badge/Ollama-0b1020?style=flat-square&logo=ollama&logoColor=white" alt="Ollama" />
-<img src="https://img.shields.io/badge/Hugging_Face-0b1020?style=flat-square&logo=huggingface&logoColor=FFD21E" alt="Hugging Face" />
-<img src="https://img.shields.io/badge/Playwright-0b1020?style=flat-square&logo=playwright&logoColor=2EAD33" alt="Playwright" />
-<img src="https://img.shields.io/badge/LLM-evaluation-0b1020?style=flat-square" alt="LLM evaluation" />
+### 🤝 Open to AI / ML engineering roles where reliability matters
 
-</div>
+<a href="mailto:kcsanjayj@gmail.com"><img src="https://img.shields.io/badge/kcsanjayj@gmail.com-f43f5e?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 
-<br/>
-
-## 📡 Status
-
-```text
-now     rapTOR vs real local models, planner prompt tuning
-next    embedding retrieval in Spaghetti · model-graded evals with variance
-open    AI / ML engineering roles where reliability matters
-```
-
-<div align="center">
-
-<a href="mailto:kcsanjayj@gmail.com"><img src="https://img.shields.io/badge/kcsanjayj@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-<a href="https://linkedin.com/in/kcsanjayj"><img src="https://img.shields.io/badge/linkedin.com/in/kcsanjayj-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="https://huggingface.co/kcsanjayj"><img src="https://img.shields.io/badge/Hugging_Face-0b1020?style=for-the-badge&logo=huggingface&logoColor=FFD21E" alt="Hugging Face" /></a>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1020,50:6d28d9,100:f43f5e&height=100&section=footer" alt="" width="100%" />
 
 </div>
